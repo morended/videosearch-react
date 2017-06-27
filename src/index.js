@@ -11,7 +11,6 @@ const API_KEY = 'AIzaSyBh2bd3On_Y_3SkqfyZZ4tkVi0pgLenuGI';
 class App  extends Component{
     constructor(props){
         super(props);
-
         this.state ={
             videos : [],
             selectedVideo : ''
@@ -29,13 +28,10 @@ class App  extends Component{
         })
 
     }
-
-
     handleSelectedVideo(selectedVideo){
             this.setState({selectedVideo:selectedVideo})
             console.log(selectedVideo);
-
-        }
+    }
     render(){
         console.log(this.state.videos);
         console.log(this.state.selectedVideo);
@@ -52,7 +48,6 @@ class App  extends Component{
 
         );
     }
-
 
 }
 
