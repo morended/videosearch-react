@@ -5,8 +5,6 @@ import ReactDOM from 'react-dom';
 class SearchBar extends Component{
     constructor(props){
         super(props);
-
-
     }
     render(){
         return(
